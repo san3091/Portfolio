@@ -474,8 +474,7 @@ hr {
 
 li {
   list-style-type: none;
-  display: inline-block;
-  margin: 0 3%; }
+  display: inline-block; }
 
 @media screen and (max-width: 1200px) {
   * {
