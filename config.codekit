@@ -29,6 +29,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4268,
+		"inputAbbreviatedPath": "\/assets\/img\/github.png",
+		"outputAbbreviatedPath": "\/assets\/img\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/header.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -36,6 +47,28 @@
 		"initialSize": 577569,
 		"inputAbbreviatedPath": "\/assets\/img\/header.png",
 		"outputAbbreviatedPath": "\/assets\/img\/header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/insta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17630,
+		"inputAbbreviatedPath": "\/assets\/img\/insta.png",
+		"outputAbbreviatedPath": "\/assets\/img\/insta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32528,
+		"inputAbbreviatedPath": "\/assets\/img\/twitter.png",
+		"outputAbbreviatedPath": "\/assets\/img\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

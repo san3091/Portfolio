@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px) {
+	* {
+		font-size: 12px;
+	}
+
+	.santiago {
+		float: none;
+		margin: auto;
+		width: 25%;
+		min-width: 300px;
+	}
+	.bio {
+		float: none;
+		margin: auto;
+		width: 90%;
+	}
+
+	.projects {
+		article {
+			float: none;
+			margin: auto;
+			width: 90%
+			figure {
+				width: 25%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	font-size: 10px;
+}
