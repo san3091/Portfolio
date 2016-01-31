@@ -359,7 +359,8 @@ h1 {
 
 p {
   font-size: 1.3em;
-  line-height: 2em; }
+  line-height: 2em;
+  text-indent: 40px; }
 
 h2 {
   font-size: 1.9em; }
@@ -370,13 +371,12 @@ h3 {
 main {
   width: 100%;
   margin: auto;
-  padding-top: 3em;
-  width: 100%; }
+  padding-top: 3em; }
 
 header {
-  height: 100vh;
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  height: 100vh; }
 
 .santiago {
   margin: 3%;
@@ -401,11 +401,22 @@ header {
     .projects article figure {
       width: 40%; }
 
+.social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
 .current {
   margin-bottom: 70px; }
 
 .icon {
-  width: 25px;
+  height: 1em;
+  width: auto;
   margin: 0 5px; }
 
 section {
@@ -423,6 +434,16 @@ img {
 
 .clearfix {
   overflow: auto; }
+
+ul {
+  width: 100%;
+  text-align: center;
+  padding-left: 0; }
+
+.contact {
+  width: 100%; }
+  .contact p {
+    text-align: center; }
 
 body {
   font-size: 16px;
@@ -452,11 +473,16 @@ hr {
   width: 50%; }
 
 li {
-  list-style-type: none; }
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 3%; }
 
 @media screen and (max-width: 1200px) {
   * {
-    font-size: 12px; }
+    font-size: 14px; }
+
+  header {
+    height: 700px; }
 
   .santiago {
     float: none;
@@ -469,10 +495,18 @@ li {
     margin: auto;
     width: 90%; }
 
-  .projects article {
-    float: none;
-    margin: auto;
-    width: 90% figure;
-      width-width: 25%; } }
-@media screen and (max-width: 400px) {
-  font-size: 10px; }
+  .projects {
+    width: 100%; }
+    .projects article {
+      float: none;
+      margin: auto;
+      width: 90%; }
+      .projects article figure {
+        width: 25%;
+        min-width: 200px; }
+
+  .current {
+    margin-top: 50px;
+    width: 100%; }
+    .current article {
+      width: 90%; } }

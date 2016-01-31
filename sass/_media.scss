@@ -1,8 +1,11 @@
 @media screen and (max-width: 1200px) {
 	* {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
+	header {
+		height: 700px;
+	}
 	.santiago {
 		float: none;
 		margin: auto;
@@ -16,17 +19,23 @@
 	}
 
 	.projects {
+		width: 100%;
 		article {
 			float: none;
 			margin: auto;
-			width: 90%
+			width: 90%;
 			figure {
 				width: 25%;
+				min-width: 200px;
 			}
 		}
 	}
-}
 
-@media screen and (max-width: 400px) {
-	font-size: 10px;
+	.current {
+		margin-top: 50px;
+		width: 100%;
+		article {
+			width: 90%;
+		}
+	}
 }
