@@ -22,6 +22,10 @@ a {
 		color: #333333;
 	}
 
+	&:hover {
+		text-decoration: underline;
+	}
+
 	article {
 		color: $a-color;
 	}
