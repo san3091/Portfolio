@@ -371,7 +371,7 @@ h3 {
 main {
   width: 100%;
   margin: auto;
-  padding-top: 3em; }
+  padding-top: 3rem; }
 
 header {
   width: 100%;
@@ -415,7 +415,7 @@ header {
   margin-bottom: 70px; }
 
 .icon {
-  height: 1em;
+  height: 1rem;
   width: auto;
   margin: 0 5px; }
 
@@ -466,6 +466,8 @@ a {
     color: #333333; }
   a::selection {
     color: #333333; }
+  a:hover {
+    text-decoration: underline; }
   a article {
     color: #cc0000; }
 
